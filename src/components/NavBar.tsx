@@ -14,7 +14,7 @@ const NavBar = () => {
   if (pathname == "/") {
     return (
       <>
-        <Grid container my={3}>
+        <Grid container py={3} bgcolor={"#fcfcfc"}>
           <Grid item xs={3} display={"flex"} justifyContent={"center"} alignItems={"center"} p={0}>
             <Link to={"/search"}>
               <SearchIcon fontSize="large" sx={{ color: "black" }} />
@@ -34,7 +34,7 @@ const NavBar = () => {
   } else if (pathname == "/profile") {
     return (
       <>
-        <Grid container my={3}>
+        <Grid container py={3} bgcolor={"#fcfcfc"}>
           <Grid item xs={3} display={"flex"} justifyContent={"center"} alignItems={"center"} p={0}>
             <Link to={"/search"}>
               <SearchIcon fontSize="large" sx={{ color: "black" }} />

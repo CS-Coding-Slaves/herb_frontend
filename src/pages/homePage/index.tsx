@@ -1,7 +1,6 @@
 import { Grid } from "@mui/material";
 import ItemDisplay from "../../components/ItemDisplay";
 import SlideItem from "../../components/SlideItem";
-import BottomBar from "../../components/BottomBar";
 
 const Home = () => {
   return (
